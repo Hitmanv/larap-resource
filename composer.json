@@ -1,0 +1,11 @@
+{
+    "name": "hitman/resource",
+    "description": "resource generator",
+    "authors": [
+        {
+            "name": "hitman",
+            "email": "944594252@qq.com"
+        }
+    ],
+    "require": {}
+}

@@ -6,7 +6,7 @@
  */
 
 
-namespace App\Console\Commands;
+namespace Hitman\Resource\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Schema;

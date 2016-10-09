@@ -24,6 +24,8 @@ class ResourceServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('command.hitman.resource', 'Hitman\Resource\Commands\MakeResource');
+        $this->app->singleton('command.hitman.doc', 'Hitman\Resource\Commands\DocGenerator');
         $this->commands('command.hitman.resource');
+        $this->commands('command.hitman.doc');
     }
 }
